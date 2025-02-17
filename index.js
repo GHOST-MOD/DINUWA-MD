@@ -1,8 +1,3 @@
-/*created by Mr Tohid 🕵
-contact me 917849917350 ♻️
-© Copy coder alert ⚠
-*/
-
 const {
 default: makeWASocket,
 useMultiFileAuthState,
@@ -35,7 +30,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['+94727163302']
+const ownerNumber = ['+94741140620']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -55,7 +50,7 @@ const port = process.env.PORT || 9090;
 //=============================================
 
 async function connectToWA() {
-console.log("CONNECTING DINUWA_MD BOT🧬...");
+console.log("CONNECTING DARK HACKER MD BOT🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -83,10 +78,10 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('DINUWA_MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('DARK HACKER MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `
-*[ •  DINUWA_MD - STARTED‎ • ]*
+*[ •  DARK HACKER MD - STARTED‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_Congratulations Your Bot Active Successfully_*
 *│  ◦*
@@ -96,16 +91,16 @@ let up = `
 *│  ◦*
 *│  ◦* *❁ ᴊᴏɪɴ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ❁*
 *│  ◦*
-*│  ◦* *https://youtube.com/@Tohidkhan_6332*
+*│  ◦* *https://youtube.com/@Cyberghost630*
 *╰┈───────────────•*
 *[ •  B O T  - R E P O ‎ • ]*
 *╭┈───────────────•*
-*│✫➠ - 🌐URL:* *https://github.com/dinuwamd*
+*│✫➠ - 🌐URL:* *https://github.com/kindghost02*
 *╰┈───────────────•*
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: [${prefix}]*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴᴜᴡᴀ 
+> © POWERD BU DARK HACKER MD
 *•────────────•⟢*
 `;
 conn.sendMessage(conn.user.id, { image: { url: `https://i.postimg.cc/HntYvQzS/IMG-20250118-WA0013.jpg` }, caption: up })
@@ -209,11 +204,11 @@ conn.ev.on('messages.upsert', async (mek) => {
 
         
 //================ownerreact==============
-if(senderNumber.includes("917849917350")){
+if(senderNumber.includes("94741140620")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("918930358452")){
+if(senderNumber.includes("94787438929")){
 if(isReact) return
 m.react("👑")
 }
@@ -309,7 +304,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, DINUWA MD STARTED ✅");
+res.send("HEY, DARK HACKER MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
