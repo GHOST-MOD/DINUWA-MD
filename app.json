@@ -1,6 +1,6 @@
 {
-  "name": "DINUWA_MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴏʜɪᴅ ᴋʜᴀɴ",
+  "name": "DARK HACKER MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ cyber ghost",
   "logo": "https://i.imgur.com/M1BzE37.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "DINUWA-MD"
+      "value": "DARK HACKER MD"
     },  
     
     "ALIVE_IMG": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "DINUWA-MD"
+      "value": "DARK HACKER MD"
     }, 
 
     "HEART_REACT": {
@@ -112,7 +112,7 @@
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "POWERED BY TOHID KHAN"
+      "value": "POWERED BY GHOST TEAM"
     }
 
 },
