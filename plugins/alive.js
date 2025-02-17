@@ -13,21 +13,21 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Generate system status message
-        const status = `╭━━〔 *DINUWA-MD* 〕━━┈⊷
+        const status = `╭━━〔 *DARK HACKER MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
 ┃◈┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ┃◈┃• *⚙️ HostName*: ${os.hostname()}
-┃◈┃• *👨‍💻 Owner*: ᴍʀ ᴅɪɴᴜᴡᴀ
+┃◈┃• *👨‍💻 Owner*: GHOST TEAM
 ┃◈┃• *🧬 Version*: V2 BETA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-  𝐡𝐞𝐥𝐥𝐨𝐰 𝐢𝐦 𝐝𝐢𝐧𝐮𝐰𝐚 𝐌𝐃 𝐛𝐨𝐭.𝐢𝐦 𝐚𝐥𝐢𝐯𝐞 𝐧𝐨𝐰. 
+  𝐡𝐞𝐥𝐥𝐨𝐰 𝐢𝐦 DARK HCKER MD 𝐛𝐨𝐭.𝐢𝐦 𝐚𝐥𝐢𝐯𝐞 𝐧𝐨𝐰. 
 
   
 
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴅɪɴᴜᴡᴀ`;
+> © POWERD BY DARK HACKER MD`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363357105376275@g.us@newsletter',
-                    newsletterName: 'ᴍʀ ᴅɪɴᴇꜱʜ',
+                    newsletterName: 'GHOST TEAM',
                     serverMessageId: 143
                 }
             }
